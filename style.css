@@ -37,4 +37,85 @@ section { padding: 50px 20px; }
     padding: 10px 30px; border-radius: 20px;
 }
 
-footer { padding: 30px; background: #957dad; color: white; }
+footer { padding: 30px; background: #957dad; color: white; }/* Fuentes */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #fff0f5; /* Fondo general */
+    color: #6a1b9a;      /* Color principal */
+    text-align: center;
+    margin: 0;
+}
+
+.hero {
+    background: linear-gradient(135deg, #f8bbd0, #ce93d8);
+    color: white;
+    padding: 80px 20px;
+    font-family: 'Great Vibes', cursive;
+}
+
+.hero h1 { font-size: 40px; }
+.hero h2 { font-size: 55px; margin: 10px 0; }
+
+#btn-musica {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    border: none;
+    background: #ce93d8;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+section { padding: 50px 20px; }
+
+.countdown {
+    font-size: 24px;
+    background: #fff3e0;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.evento a {
+    display: inline-block;
+    margin-top: 15px;
+    background: #ba68c8;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.galeria .fotos {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.galeria img {
+    width: 150px;
+    border-radius: 15px;
+}
+
+.rsvp input, .rsvp select {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.rsvp button {
+    background: #ab47bc;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+footer {
+    padding: 30px;
+    background: #ce93d8;
+    color: white;
+}
