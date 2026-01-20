@@ -1,0 +1,40 @@
+* { box-sizing: border-box; margin: 0; font-family: 'Segoe UI', sans-serif; }
+body { background: #fdf6fb; color: #5a2a6e; text-align: center; }
+
+.hero {
+    background: linear-gradient(135deg, #d291bc, #957dad);
+    color: white;
+    padding: 80px 20px;
+}
+.hero h1 { font-size: 40px; }
+.hero h2 { font-size: 55px; margin: 10px 0; }
+
+#btn-musica {
+    position: fixed; top: 15px; right: 15px;
+    border: none; background: #957dad;
+    color: white; padding: 10px; border-radius: 50%;
+    cursor: pointer;
+}
+
+section { padding: 50px 20px; }
+
+.countdown { font-size: 22px; background: #fff; }
+
+.evento a {
+    display: inline-block; margin-top: 15px;
+    background: #d291bc; color: white;
+    padding: 10px 20px; border-radius: 20px; text-decoration: none;
+}
+
+.galeria .fotos {
+    display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;
+}
+.galeria img { width: 150px; border-radius: 15px; }
+
+.rsvp input, .rsvp select { width: 80%; padding: 10px; margin: 10px 0; }
+.rsvp button {
+    background: #957dad; color: white; border: none;
+    padding: 10px 30px; border-radius: 20px;
+}
+
+footer { padding: 30px; background: #957dad; color: white; }
