@@ -1,10 +1,9 @@
 // Música
 const musica = document.getElementById("musica");
 const btn = document.getElementById("btn-musica");
-
 btn.addEventListener("click", () => {
-    if (musica.paused) { musica.play(); btn.textContent="⏸️"; }
-    else { musica.pause(); btn.textContent="🎵"; }
+    if (musica.paused) { musica.play(); btn.textContent = "⏸️"; }
+    else { musica.pause(); btn.textContent = "🎵"; }
 });
 
 // Cuenta regresiva
@@ -25,3 +24,4 @@ setInterval(() => {
 document.getElementById("formulario").addEventListener("submit", e => {
     e.preventDefault();
     document.getElementById("mensaje").textContent = "¡Gracias por confirmar! 💕";
+});
