@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>XV Años Valeria</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Música -->
+<audio id="musica" loop>
+    <source src="https://cdn.pixabay.com/download/audio/2022/10/25/audio_c7c9c7b4e1.mp3" type="audio/mpeg">
+</audio>
+<button id="btn-musica">🎵</button>
+
+<!-- Portada -->
+<section class="hero">
+    <h1>Mis XV Años</h1>
+    <h2>Valeria</h2>
+    <p>¡Te invito a celebrar conmigo este día tan especial!</p>
+</section>
+
+<!-- Cuenta regresiva -->
+<section class="countdown">
+    <h3>Faltan:</h3>
+    <div id="reloj"></div>
+</section>
+
+<!-- Evento -->
+<section class="evento">
+    <h3>Detalles del Evento</h3>
+    <p>📅 20 de Febrero de 2026</p>
+    <p>⏰ 6:00 PM</p>
+    <p>📍 Salón Estrella Dorada</p>
+    <a href="https://maps.google.com" target="_blank">Ver ubicación</a>
+</section>
+
+<!-- Galería -->
+<section class="galeria">
+    <h3>Momentos</h3>
+    <div class="fotos">
+        <img src="https://picsum.photos/300/300?1">
+        <img src="https://picsum.photos/300/300?2">
+        <img src="https://picsum.photos/300/300?3">
+    </div>
+</section>
+
+<!-- RSVP -->
+<section class="rsvp">
+    <h3>Confirma tu asistencia</h3>
+    <form id="formulario">
+        <input type="text" placeholder="Tu nombre" required>
+        <select required>
+            <option value="">¿Asistirás?</option>
+            <option>Sí asistiré</option>
+            <option>No podré asistir</option>
+        </select>
+        <button type="submit">Confirmar</button>
+    </form>
+    <p id="mensaje"></p>
+</section>
+
+<footer>
+    <p>Con cariño 💖 Valeria</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
